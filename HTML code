@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs - Job Search Portal</title>
+    <link rel="stylesheet" href="fin.css">
+</head>
+<body>
+    <header>
+        <h1>Job Search Portal</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Available Jobs</h2>
+        <p>Explore the latest job opportunities tailored to your skills and preferences.</p>
+
+        <!-- Job Listings -->
+        <div class="job-listings">
+            <div class="job">
+                <h3>Web Developer</h3>
+                <p><strong>Company:</strong> ABC Tech</p>
+                <p><strong>Location:</strong> Remote, India</p>
+                <p><strong>Description:</strong> Seeking a talented Web Developer to join our dynamic team. Experience with HTML, CSS, JavaScript, and React.js required.</p>
+                <a href="apply.html" class="apply-button">Apply Now</a>
+            </div>
+            <div class="job">
+                <h3>Graphic Designer</h3>
+                <p><strong>Company:</strong> XYZ Design</p>
+                <p><strong>Location:</strong> Mumbai, India</p>
+                <p><strong>Description:</strong> Looking for a creative Graphic Designer with experience in Adobe Photoshop, Illustrator, and UI/UX design.</p>
+                <a href="apply.html" class="apply-button">Apply Now</a>
+            </div>
+            <div class="job">
+                <h3>Software Engineer</h3>
+                <p><strong>Company:</strong> Tech Solutions</p>
+                <p><strong>Location:</strong> Bangalore, India</p>
+                <p><strong>Description:</strong> We are hiring a Software Engineer with experience in Java, Python, and cloud technologies. Apply now for a fast-paced role in a growing startup.</p>
+                <a href="apply.html" class="apply-button">Apply Now</a>
+            </div>
+            <div class="job">
+                <h3>Data Scientist</h3>
+                <p><strong>Company:</strong> DataWorks</p>
+                <p><strong>Location:</strong> Chennai, India</p>
+                <p><strong>Description:</strong> Seeking an experienced Data Scientist to work with large datasets and machine learning algorithms. Proficiency in Python and R is a must.</p>
+                <a href="apply.html" class="apply-button">Apply Now</a>
+            </div>
+            <div class="job">
+                <h3>Marketing Manager</h3>
+                <p><strong>Company:</strong> Global Corp</p>
+                <p><strong>Location:</strong> New Delhi, India</p>
+                <p><strong>Description:</strong> Join our team as a Marketing Manager. You will be responsible for developing and executing marketing strategies to increase brand awareness.</p>
+                <a href="apply.html" class="apply-button">Apply Now</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Job Search Portal</p>
+    </footer>
+    <script src="abc.js"></script>
+</body>
+</html>
