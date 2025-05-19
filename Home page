@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Job Search Portal</title>
+    <link rel="stylesheet" href="fin.css">
+</head>
+<body>
+    <header>
+        <h1>Job Search Portal</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Welcome to the Job Search Portal</h2>
+        <p>Discover your dream job and apply easily with our wide range of opportunities.</p>
+
+        <!-- Section: How it Works -->
+        <section class="how-it-works">
+            <h3>How It Works</h3>
+            <p>Get started by searching for jobs in your desired industry, location, and more.</p>
+            <div class="steps">
+                <div class="step">
+                    <h4>1. Create Your Profile</h4>
+                    <p>Sign up and create your profile with your skills and experience.</p>
+                </div>
+                <div class="step">
+                    <h4>2. Search for Jobs</h4>
+                    <p>Browse and filter jobs based on your preferences and qualifications.</p>
+                </div>
+                <div class="step">
+                    <h4>3. Apply Easily</h4>
+                    <p>Submit your application directly through our platform.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Job Search Call to Action -->
+        <section class="cta-job-search">
+            <h3>Start Your Job Search Today</h3>
+            <p>Looking for a new opportunity? Use our search tool to find jobs tailored to your skills.</p>
+            <a href="jobs.html" class="cta-button">Browse Jobs</a>
+        </section>
+
+        <!-- Section: Testimonials -->
+        <section class="testimonials">
+            <h3>What Our Users Are Saying</h3>
+            <div class="testimonial">
+                <p>"Thanks to the Job Search Portal, I found my dream job at ABC Tech!"</p>
+                <p><strong>- Jane Doe, Web Developer</strong></p>
+            </div>
+            <div class="testimonial">
+                <p>"This platform helped me land multiple interviews. I highly recommend it!"</p>
+                <p><strong>- John Smith, Graphic Designer</strong></p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Job Search Portal</p>
+    </footer>
+
+    <script src="abc.js"></script>
+</body>
+</html>
