@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Companies - Job Search Portal</title>
+    <link rel="stylesheet" href="fin.css">
+</head>
+<body>
+    <header>
+        <h1>Job Search Portal</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Top Companies Hiring Now</h2>
+        <p>Discover the companies that are hiring, learn about their mission, vision, and explore available job opportunities.</p>
+        
+        <!-- Company 1 - ABC Tech -->
+        <section class="company-details">
+            <h3>ABC Tech</h3>
+            <div class="company-info">
+                <div class="company-logo">
+                    <img src="https://via.placeholder.com/150" alt="ABC Tech Logo">
+                </div>
+                <div class="company-description">
+                    <p><strong>Mission:</strong> To innovate and deliver cutting-edge technology solutions that empower businesses worldwide.</p>
+                    <p><strong>Vision:</strong> To be a global leader in tech innovation, transforming industries through the power of technology.</p>
+                    <p><strong>Job Openings:</strong> 35 available positions</p>
+                    <a href="jobs.html" class="view-jobs-button">View Job Openings</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company 2 - XYZ Design -->
+        <section class="company-details">
+            <h3>XYZ Design</h3>
+            <div class="company-info">
+                <div class="company-logo">
+                    <img src="https://via.placeholder.com/150" alt="XYZ Design Logo">
+                </div>
+                <div class="company-description">
+                    <p><strong>Mission:</strong> Creating exceptional and user-centric designs that help brands stand out.</p>
+                    <p><strong>Vision:</strong> To be a leading creative agency that shapes the future of design with innovative solutions.</p>
+                    <p><strong>Job Openings:</strong> 12 available positions</p>
+                    <a href="jobs.html" class="view-jobs-button">View Job Openings</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company 3 - Global Innovators -->
+        <section class="company-details">
+            <h3>Global Innovators</h3>
+            <div class="company-info">
+                <div class="company-logo">
+                    <img src="https://via.placeholder.com/150" alt="Global Innovators Logo">
+                </div>
+                <div class="company-description">
+                    <p><strong>Mission:</strong> Building sustainable solutions for a better world through technological advancements.</p>
+                    <p><strong>Vision:</strong> To create a sustainable future where technology solves global challenges.</p>
+                    <p><strong>Job Openings:</strong> 25 available positions</p>
+                    <a href="jobs.html" class="view-jobs-button">View Job Openings</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company 4 - Tech Forward -->
+        <section class="company-details">
+            <h3>Tech Forward</h3>
+            <div class="company-info">
+                <div class="company-logo">
+                    <img src="https://via.placeholder.com/150" alt="Tech Forward Logo">
+                </div>
+                <div class="company-description">
+                    <p><strong>Mission:</strong> To lead the digital transformation by providing innovative tech services to businesses.</p>
+                    <p><strong>Vision:</strong> To revolutionize industries by empowering companies to adopt cutting-edge technologies.</p>
+                    <p><strong>Job Openings:</strong> 20 available positions</p>
+                    <a href="jobs.html" class="view-jobs-button">View Job Openings</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Job Search Portal</p>
+    </footer>
+
+    <script src="abc.js"></script>
+</body>
+</html>
