@@ -1,0 +1,66 @@
+document.addEventListener("DOMContentLoaded", () => {
+  // Navigation
+  document.querySelectorAll("nav a").forEach(link => {
+    link.addEventListener("click", (event) => {
+      const page = event.target.textContent.toLowerCase();
+      if (page === "home") {
+        window.location.href = "home.html"; // Replace with the actual URL for the home page
+      } else if (page === "jobs") {
+        window.location.href = "jobs.html"; // Replace with the actual URL for the jobs page
+      } else if (page === "companies") {
+        window.location.href = "companies.html"; // Replace with the actual URL for the companies page
+      } else if (page === "about us") {
+        window.location.href = "about.html"; // Replace with the actual URL for the about us page
+      } else if (page === "contact") {
+        window.location.href = "contact.html"; // Replace with the actual URL for the contact page
+      }
+      event.preventDefault();
+    });
+  });
+
+  // Job Search
+  document.querySelector(".search button").addEventListener("click", (event) => {
+    event.preventDefault();
+    const keywords = document.querySelector("input[name='keywords']").value.toLowerCase();
+    const location = document.querySelector("input[name='location']").value.toLowerCase();
+    const company = document.querySelector("input[name='company']").value.toLowerCase();
+
+    document.querySelectorAll(".job-listings li").forEach(job => {
+      const jobTitle = job.querySelector("h3").textContent.toLowerCase();
+      const jobLocation = job.querySelector("p:nth-of-type(2)").textContent.toLowerCase();
+      const jobCompany = job.querySelector("p:nth-of-type(1)").textContent.toLowerCase();
+
+      if (
+        (keywords === "" || jobTitle.includes(keywords)) &&
+        (location === "" || jobLocation.includes(location)) &&
+        (company === "" || jobCompany.includes(company))
+      ) {
+        job.style.display = "block";
+      } else {
+        job.style.display = "none";
+      }
+    });
+  });
+
+  // Apply Now
+  document.querySelectorAll(".job-listings a").forEach(button => {
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      window.location.href = "apply.html"; // Replace with the actual URL for the apply page
+    });
+  });
+
+  // Form Validation and Submission
+  document.querySelector(".apply-form").addEventListener("submit", (event) => {
+    const name = document.querySelector("input[name='name']").value;
+    const email = document.querySelector("input[name='email']").value;
+    const resume = document.querySelector("input[name='resume']").value;
+
+    if (name && email && resume) {
+      alert("Application submitted successfully!");
+    } else {
+      alert("Please fill in all required fields.");
+      event.preventDefault();
+    }
+  });
+});
